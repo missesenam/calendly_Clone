@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>calendly</title>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary1: '#000000',
+            primary2: '#ffffff',
+            primary3: '#006bff',
+            primary4: 'gray',
+            primary5: '#f0f3f8',
+          },
+          fontStyle: {
+            font1: 'sans',
+            font2: 'Roboto',
+            font3: 'sans-serif',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+    <nav class="flex items-center pl-[5px] space-x-14  h-[3rem] border-b fixed bg-primary2 w-[100%] sm:justify-around">
+        <div>
+          <a href="index.html"><img src="./icon_logo/logo.svg" alt="calendly logo" width="130px"></a>
+        </div>
+        <ul class="flex justify-between w-[270px] font-medium capitalize ">
+            <li><a href="individuals.html">individuals</a></li>
+            <li><a href="teams.html">teams</a></li>
+            <li><a href="enterprise.html">enterprise</a></li>
+        </ul>
+    </nav>
+    <!-- main -->
+     <div class="pt-[4rem] sm:w-[70%] sm:mx-auto md:flex md:w-[90%]   lg:w-[80%] xl:w-[70%]">
+        <div class="pl-12 sm:mx-auto md:w-[60%] my-10">
+            <h1 class="font-bold text-4xl">Easy</h1>
+            <h1 class="font-bold text-4xl">scheduling</h1>
+            <h1 class="font-bold text-4xl text-primary3">ahead</h1>
+            <p class="mt-5 max-w-[200px]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa ut ullam possimus quos? Impedit tempora nam unde aliquid et. </p>
+            <div class="rounded-3xl max-w-[280px] flex justify-between  border mt-4 md:w-[290px]">
+                <input type="text" placeholder="Enter your email" class="border-0 outline-none ml-4  ">
+                <button class="p-2 bg-primary1 text-primary2 rounded-3xl">sign up</button>
+            </div>
+            <p class=" mt-1 text-primary4 text-sm">create your free account. no credit card required </p>
+        </div>
+        <div class="md:mx-auto ">
+            <img src="./img/computer.png" alt="" width="80%" class="mx-auto md:w-[400px]">
+        </div>
+     </div>
+     <!-- 2 -->
+     <div class="bg-primary5 mt-5">
+        <p class="text-center font-bold text-2xl ">Simplified scheduling for more than <span class="text-primary3">10,000,000</span>users worldwide</p>
+        <div class="flex justify-between  h-[40px] mt-4 px-2 sm:px-8">
+            <img src="./icon_logo/compass-customer-logo.svg" alt="" width="110px">
+            <img src="./icon_logo/dropbox-svgrepo-com.svg" alt="" width="25px">
+            <img src="./icon_logo/ebay-svgrepo1-com.svg" alt="" width="70px">
+            <img src="./icon_logo/download.png" alt="" width="100px" height="30px" class="">
+            <img src="./icon_logo/twilio-svgrepo-com.svg" alt="" width="100px">
+        </div>
+     </div>
+     <!-- 3 -->
+      <div class="mt-5 sm:grid sm:grid-cols-3 ">
+        <div class="w-[70%] mx-auto mt-8">
+            <div class="flex space-x-3 mb-5 ">
+                <span class="bg-primary3 text-primary2 py-1 px-2 rounded-[50%]  h-[30px] ">1</span>
+                <h1 class="font-bold text-xl">create  simple rules</h1>
+            </div>
+            <p class="pl-9">Lorem ipsum dolor sit, amet consectetur adipisicing elit consectetur adipisicing.</p>
+        </div>
+        <div class="w-[70%] mx-auto mt-8">
+            <div class="flex space-x-3 mb-5">
+                <span class="bg-primary3 text-primary2 py-1 px-2 rounded-[50%] h-[30px]">2</span>
+                <h1 class="font-bold text-xl">Share your link</h1>
+            </div>
+            <p class="pl-9">Lorem ipsum dolor sit, amet consectetur adipisicing elit consectetur adipisicing.</p>
+        </div>
+        <div class="w-[70%] mx-auto mt-8">
+            <div class="flex space-x-3 mb-5">
+                <span class="bg-primary3 text-primary2 py-1 px-2 rounded-[50%] h-[30px]">3</span>
+                <h1 class="font-bold text-xl">Get booked</h1>
+            </div>
+            <p class="pl-9">Lorem ipsum dolor sit, amet consectetur adipisicing elit consectetur adipisicing.</p>
+        </div>
+      </div>
+
+
+
+
+
+
+<!-- footer -->
+ <footer>
+
+ </footer>
+</body>
+</html>
